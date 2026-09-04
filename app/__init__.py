@@ -70,11 +70,6 @@ def create_app(application):
 
     application.register_blueprint(main_blueprint)
 
-    # from .status import status as status_blueprint
-    # application.register_blueprint(status_blueprint)
-
-    # add_template_filters(application)
-
     register_errorhandlers(application)
 
 
